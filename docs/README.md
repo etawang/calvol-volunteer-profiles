@@ -28,7 +28,7 @@ Under UltimateMember: User Roles, create a new "volunteer" user role. This will 
 
 Under UltimateMember: Forms, update the default profile form to have the following fields and field types:
 
-![](img/um-profile.png){ width = 50% }
+<img src='img/um-profile.png' width='50%'>
 
 The form should look like this when displayed on a page:
 
