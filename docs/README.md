@@ -32,7 +32,7 @@ Under UltimateMember: Forms, update the default profile form to have the followi
 
 The form should look like this when displayed on a page:
 
-![](img/profile-edit-page.png){ width = 50% }
+<img src='img/profile-edit-page.png' width='50%'>
 
 ### Install the calvol-volunteer-profiles plugin
 Download this repo as a zip file and upload it to the wordpress site.
@@ -44,3 +44,5 @@ Install this plugin from the plugin page in the admin dashboard.
 From the Tools: Import page, you can upload the XML file in `page-exports`. Afterward, you should see two new pages: *Volunteer Dashboard* and *-- Record Shifts*.
 
 ![](img/pages-screenshot.png)
+
+You should now be able to fill out the form at [https://www.californiavolunteers.ca.gov/get-involved/covid-19/signup/](https://www.californiavolunteers.ca.gov/get-involved/covid-19/signup/), receive a temporary password, and use those credentials to log in at [https://www.californiavolunteers.ca.gov/login](https://www.californiavolunteers.ca.gov/login). After logging in, you'll be redirected to the dashboard page at [https://www.californiavolunteers.ca.gov/volunteer-dashboard](https://www.californiavolunteers.ca.gov/volunteer-dashboard)
