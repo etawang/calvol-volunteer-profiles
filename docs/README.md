@@ -28,11 +28,11 @@ Under UltimateMember: User Roles, create a new "volunteer" user role. This will 
 
 Under UltimateMember: Forms, update the default profile form to have the following fields and field types:
 
-![](img/um-profile.png)
+![](img/um-profile.png){ width = 50% }
 
 The form should look like this when displayed on a page:
 
-![](img/profile-edit-page.png)
+![](img/profile-edit-page.png){ width = 50% }
 
 ### Install the calvol-volunteer-profiles plugin
 Download this repo as a zip file and upload it to the wordpress site.
