@@ -6,13 +6,17 @@ function calvol_volunteer_profiles_admin_menu () {
 		'CalVol Volunteer Profiles',
 		'CalVol Volunteer Profiles',
 		'manage_options',
-		'calvol-volunteer-profile-menu',
-		'calvol_volunteer_profile_menu_page'
+		'calvol-volunteer-profiles-menu',
+		'calvol_volunteer_profiles_menu_page'
 	);
 }
 
 function calvol_volunteer_profiles_menu_page () {
-  echo "<h1>Hello World!</h1>";
+  require_once CALVOL_VOLUNTEER_PROFILES_DIR . '/partials/admin-menu.php';
+}
+
+function calvol_volunteer_profiles_save_options ($values = array()) {
+  update_option('calvol_create_vol_profiles', isset( $values['create_vol_profiles'] ) ? true : false);
 }
 
 ?>
