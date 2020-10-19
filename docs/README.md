@@ -57,15 +57,9 @@ From the Tools: Import page, you can upload the XML file in `page-exports`. Afte
 ### Enable user creation from the CalVol Volunteer Profiles settings page
 Since volunteer profile creation is user-facing functionality (it emails volunteers the temporary to their account), this functionality is gated behind a plugin setting. It can be enabled from the plugin settings page.
 
-Access the CalVol Volunteer Profiles plugin settings in the sidebar of the admin dashboard.
+Access the CalVol Volunteer Profiles plugin settings in the sidebar of the admin dashboard. This will take you to the plugin settings page, where you can enable account creation.
 
-<img src='img/admin-menu-bar.png' width='50%' height='50%'>
-
-from the plugin settings page.
-
-This will take you to the plugin settings page, where you can enable account creation.
-
-<img src='img/admin-menu-page.png' width='50%' height='50%'>
+<img src='img/admin-menu-page.png' width='50%'>
 
 ## Testing
 You should now be able to fill out the form at [https://www.californiavolunteers.ca.gov/get-involved/covid-19/signup/](https://www.californiavolunteers.ca.gov/get-involved/covid-19/signup/), receive a temporary password, and use those credentials to log in at [https://www.californiavolunteers.ca.gov/login](https://www.californiavolunteers.ca.gov/login). After logging in, you'll be redirected to the dashboard page at [https://www.californiavolunteers.ca.gov/volunteer-dashboard](https://www.californiavolunteers.ca.gov/volunteer-dashboard).
