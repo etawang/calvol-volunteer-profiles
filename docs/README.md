@@ -59,13 +59,18 @@ Since volunteer profile creation is user-facing functionality (it emails volunte
 
 Access the CalVol Volunteer Profiles plugin settings in the sidebar of the admin dashboard.
 
-<img src='img/admin-menu-bar' width='50%'>
+<img src='img/admin-menu-bar.png' width='50%'>from the plugin settings page.
 
 This will take you to the plugin settings page, where you can enable account creation.
 
-<img src='img/admin-menu-page' width='50%'>
+<img src='img/admin-menu-page.png' width='50%'>
 
 ## Testing
 You should now be able to fill out the form at [https://www.californiavolunteers.ca.gov/get-involved/covid-19/signup/](https://www.californiavolunteers.ca.gov/get-involved/covid-19/signup/), receive a temporary password, and use those credentials to log in at [https://www.californiavolunteers.ca.gov/login](https://www.californiavolunteers.ca.gov/login). After logging in, you'll be redirected to the dashboard page at [https://www.californiavolunteers.ca.gov/volunteer-dashboard](https://www.californiavolunteers.ca.gov/volunteer-dashboard).
 
 <img src='img/dashboard-page.png' width='50%'>
+
+Debugging:
+- Check that the new user was created by looking for a new user with the volunteer role in the wordpress admin dashboard
+- Check the wordpress logs for errors
+- Try adding logs to the plugin to narrow down the source of the issue
