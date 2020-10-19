@@ -25,7 +25,7 @@ function vol_profiles_init () {
 }
 
 function vol_profiles_admin_init () {
-  require_once CALVOL_VOLUNTEER_PROFILES_DIR . 'includes/php-updater.php';
+  require_once CALVOL_VOLUNTEER_PROFILES_DIR . 'includes/plugin-updater.php';
 }
 
 function vol_profiles_enqueue_scripts () {
