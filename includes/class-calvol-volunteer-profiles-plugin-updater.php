@@ -9,8 +9,8 @@
  *
  */
 
-if ( ! class_exists( 'Calvol_Volunteer_Profiles_Plugin_Update' ) ) {
-	class Calvol_Volunteer_Profiles_Plugin_Update {
+if ( ! class_exists( 'Calvol_Volunteer_Profiles_Plugin_Updater' ) ) {
+	class Calvol_Volunteer_Profiles_Plugin_Updater {
 
 		protected $plugin_name;
 		protected $current_version;
@@ -247,4 +247,4 @@ if ( ! class_exists( 'Calvol_Volunteer_Profiles_Plugin_Update' ) ) {
 	}
 }
 
-new Calvol_Volunteer_Profiles_Plugin_Update( plugin_basename( plugin_dir_path( __DIR__ ) ) );
+new Calvol_Volunteer_Profiles_Plugin_Updater( plugin_basename( plugin_dir_path( __DIR__ ) ) );
