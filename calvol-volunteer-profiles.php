@@ -2,6 +2,7 @@
 /*
 Plugin Name: Calvol Volunteer Profiles
 Description: Implementation of volunteer profiles for californiavolunteers. Combines a custom user dashboard with functionality from the UltimateMember plugin. Please install UltimateMember in order to use this plugin.
+Version: 0.1
 // */
 define('CALVOL_VOLUNTEER_PROFILES_DIR', plugin_dir_path( __FILE__ ));
 define('CALVOL_VOLUNTEER_PROFILE_URL', '/volunteer-dashboard');

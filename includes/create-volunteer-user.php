@@ -4,5 +4,6 @@ function create_volunteer_user ($fields) {
     return;
   }
   error_log("Creating user");
+  error_log(print_r($fields));
 }
 ?>

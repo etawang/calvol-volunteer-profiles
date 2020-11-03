@@ -17,7 +17,7 @@ if ( ! class_exists( 'Calvol_Volunteer_Profiles_Plugin_Updater' ) ) {
 		protected $slug;
 		protected $plugin_file;
 		protected $transient_name = 'calvol_volunteer_profiles_update_plugins';
-		protected $repo = 'https://github.com/etawang/calvol-volunteer-profiles';
+		protected $repo = 'https://api.github.com/repos/etawang/calvol-volunteer-profiles';
 		protected $args;
 		public function __construct( $plugin_slug ) {
 			$plugin_data = get_plugin_data( sprintf( '%1$s/%2$s/%2$s.php', WP_PLUGIN_DIR, $plugin_slug ) );
@@ -105,7 +105,6 @@ if ( ! class_exists( 'Calvol_Volunteer_Profiles_Plugin_Updater' ) ) {
 					$obj->new_version    = $payload->tag_name;
 					$obj->published_date = ( new DateTime( $payload->published_at ) )->format( 'm/d/Y' );
 					$obj->package        = $payload->zipball_url;
-					$obj->tested         = '5.4.1';
 
 					$theme_response = array( $this->plugin_file => $obj );
 
